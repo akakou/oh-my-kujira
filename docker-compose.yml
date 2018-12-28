@@ -1,7 +1,7 @@
 my-kujira:
   build: "."
   volumes:
-    - /home/akakou/Downloads/kujira:/root/volume
+    - ../Downloads/kujira:/root/volume
   tty: true
   cap_add:
     - SYS_PTRACE
