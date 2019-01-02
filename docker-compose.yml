@@ -1,4 +1,6 @@
 my-kujira:
+  ports:
+    - "1-65535:1-65535"
   build: "."
   volumes:
     - ../Downloads/kujira:/root/volume
