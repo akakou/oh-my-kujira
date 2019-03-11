@@ -3,7 +3,7 @@ my-kujira:
     - "1-65535:1-65535"
   build: "."
   volumes:
-    - ../Downloads/kujira:/root/volume
+    - /mnt/c/Users/akako/Downloads/Kujira:/root/volume
   tty: true
   cap_add:
     - SYS_PTRACE
