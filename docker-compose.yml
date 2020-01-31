@@ -11,3 +11,4 @@ my-kujira:
     - seccomp:unconfined
   environment:                                                            
     - EDITOR=vim  
+    - EXGDBPATH=/root/exgdb
