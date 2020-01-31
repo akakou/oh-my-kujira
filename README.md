@@ -10,19 +10,19 @@ A little handy [ctf-kujira](https://github.com/akakou/ctf-kujira).
 ## How To Use
 ### Install (Linux)
 ```sh
-$ wget https://raw.githubusercontent.com/akakou/oh-my-kujira/master/script/install
+$ git clone https://github.com/ctf-kujira/ctf-kujira kujira
+$ cd kujira
 $ python3 install
 ```
 ### Run
 ```sh
 $ kujira
-$ kujira filename     # run kujira and copy file to volume
-$ kujira -m filename  # run kujira and move file to volume
+$ kujira --copy filename  # copy file or directory to volume before kujira run
 ```
 
 ### Uninstall (Linux)
 ```sh
-$ wget https://raw.githubusercontent.com/akakou/oh-my-kujira/master/script/uninstall
+$ cd kujira
 $ python3 uninstall
 ```
 
